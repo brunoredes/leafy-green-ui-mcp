@@ -1,0 +1,7 @@
+{
+  "name": "@leafygreen-ui/confirmation-modal",
+  "version": "8.0.0",
+  "description": "LeafyGreen UI Kit Confirmation Modal",
+  "dependencies": { "@leafygreen-ui/modal": "^20.0.0" },
+  "peerDependencies": { "@leafygreen-ui/leafygreen-provider": "^5.0.0" }
+}

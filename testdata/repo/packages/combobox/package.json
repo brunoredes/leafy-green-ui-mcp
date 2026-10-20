@@ -1,0 +1,6 @@
+{
+  "name": "@leafygreen-ui/combobox",
+  "version": "12.1.0",
+  "description": "LeafyGreen UI Kit Combobox",
+  "peerDependencies": { "@leafygreen-ui/leafygreen-provider": "^5.0.0" }
+}

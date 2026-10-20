@@ -1,0 +1,8 @@
+{
+  "fetched_at": "2026-10-01T12:00:00Z",
+  "pages": [
+    { "slug": "combobox", "kind": "component", "url": "https://www.mongodb.design/component/combobox/design-docs", "file": "combobox.md" },
+    { "slug": "modal", "kind": "component", "url": "https://www.mongodb.design/component/modal/design-docs", "file": "modal.md" },
+    { "slug": "accessibility", "kind": "foundation", "url": "https://www.mongodb.design/foundation/accessibility", "file": "foundation-accessibility.md" }
+  ]
+}

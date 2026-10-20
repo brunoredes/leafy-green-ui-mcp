@@ -1,0 +1,31 @@
+version: "2"
+linters:
+  enable:
+    - errorlint
+    - forbidigo
+    - gocritic
+    - misspell
+    - revive
+    - unconvert
+  settings:
+    forbidigo:
+      forbid:
+        - pattern: ^fmt\.Print.*$
+          msg: stdout carries JSON-RPC; log with slog to stderr
+        - pattern: ^log\.Print.*$
+          msg: use slog
+        - pattern: ^os\.Stdout$
+          msg: stdout carries JSON-RPC
+  exclusions:
+    rules:
+      - path: cmd/lg-mcp/
+        linters: [forbidigo]
+        text: os\.Stdout
+formatters:
+  enable:
+    - gofmt
+    - goimports
+  settings:
+    goimports:
+      local-prefixes:
+        - github.com/brunodonatelli/lg-mcp

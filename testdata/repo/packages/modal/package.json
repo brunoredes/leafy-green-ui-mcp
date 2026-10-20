@@ -1,0 +1,6 @@
+{
+  "name": "@leafygreen-ui/modal",
+  "version": "20.0.0",
+  "description": "LeafyGreen UI Kit Modal",
+  "peerDependencies": { "@leafygreen-ui/leafygreen-provider": "^5.0.0" }
+}

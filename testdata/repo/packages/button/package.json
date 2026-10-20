@@ -1,0 +1,6 @@
+{
+  "name": "@leafygreen-ui/button",
+  "version": "24.0.1",
+  "description": "LeafyGreen UI Kit Button",
+  "peerDependencies": { "@leafygreen-ui/leafygreen-provider": "^5.0.0" }
+}
